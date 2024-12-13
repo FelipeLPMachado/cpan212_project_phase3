@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.home-page,
+.preferences-page,
+.signin-page,
+.signup-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #b2ebf2;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  background-color: #f5e1a4;
+  padding: 40px;
+  margin: 100px auto;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px 10px;
+  font-size: 1rem;
+  width: 30%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input:focus, button:focus {
+  outline: none;
+  border-color: #f1c40f;
+}
+
+button {
+  background-color: #f1c40f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e67e22;
+}
+
+input {
+  background-color: #fafafa;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+.datetime-card,
+.weather-card,
+.forecast-card,
+.clothing-card {
+  background-color: #f5e1a4;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.datetime-card h3,
+.weather-card h2,
+.forecast-card h4,
+.clothing-card h4 {
+  font-size: 1.3rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.datetime-card p,
+.weather-card p,
+.forecast-card p,
+.clothing-card p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.forecast-card h4 {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.clothing-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.clothing-card {
+  border: 1px solid #ddd;
+}
+
+.clothing-card h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.clothing-card p {
+  font-size: 1rem;
+}
+
+.weather-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.weather-card p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.weather-card p:nth-child(odd) {
+  font-weight: bold;
+}
+
+.forecast-card {
+  background-color: #f5e1a4;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.forecast-card h4 {
+  font-size: 1.3rem;
+  margin: 0;
+  color: black;
+}
+
+.forecast-card p {
+  font-size: 1rem;
+}
+
+.forecast-card p:nth-child(odd) {
+  font-weight: bold;
+}
